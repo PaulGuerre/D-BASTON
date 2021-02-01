@@ -1,0 +1,15 @@
+version: '3'
+services:
+  risk:  
+    build: .
+    container_name: risk
+    environment:
+      - TZ=Europe/Paris
+    labels:
+        - traefik.http.routers.server_risk.rule=Host(`risk.lxdrive.fr`)
+        - traefik.http.routers.server_risk.tls=true
+        - traefik.http.routers.server_risk.entrypoints=https
+        - traefik.http.routers.server_risk.tls.certresolver=ovh
+        - traefik.http.routers.server_risk.tls.domains[0].main=lxdrive.fr
+        - traefik.http.routers.server_risk.tls.domains[0].sans=*.lxdrive.fr
+        - traefik.enable=true
