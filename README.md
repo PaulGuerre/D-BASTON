@@ -11,7 +11,7 @@ https://github.com/EnergiaWD
 
 https://github.com/Orchanyne
 
-Play right now here :  https://risk.lxdrive.fr/
+Play right now here :  https://risk.sukine.fr/
 
 Check this out !
 
