@@ -11,8 +11,6 @@ https://github.com/EnergiaWD
 
 https://github.com/Orchanyne
 
-Play right now here :  https://risk.sukine.fr/
-
 Check this out !
 
 ![alt text](https://github.com/Orchanyne/D-BASTON/blob/master/testUnity/Menu_D-BASTON.PNG)
